@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Login page</title>
+    </head>
+    <body>
+        <address>
+        <h1>SiGn In<br> YoUr AcCoUnT</h1>
+    </address>
+        <form name="login">
+            Username<input type="text" placeholder="Enter Username"name="userid" required/><br><br>
+            Password<input type="password" placeholder="? ? ? ?" name="pswrd"/><br><br>
+            <input type="button" onclick="check(this.form)" value="Login"/>
+            <input type="reset" value="Cancel"/>
+        </form>
+        <script language="javascript">
+            function check(form) { 
+                if(form.userid.value == "14" && form.pswrd.value == "bavi"){
+                   alert("SUCCESSFULL")}
+
+               else if(form.userid.value == "38" && form.pswrd.value == "kannan"){ 
+                   alert("SUCCESSFULL")}
+                
+                else if(form.userid.value == "33" && form.pswrd.value == "jofus") {
+                   alert("SUCCESSFULL")}
+                
+                else if(form.userid.value == "40" && form.pswrd.value == "karthi") {
+                   alert("SUCCESSFULL")}
+                
+                else if(form.userid.value == "52" && form.pswrd.value == "lingesh") {
+                   alert("SUCCESSFULL")
+                          }
+                else {
+                    alert("Error Password or Username")
+                }
+            }
+        </script>
+    </body>
+</html>
